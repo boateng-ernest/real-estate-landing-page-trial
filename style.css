@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+    align-items: center;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    a{
+        color: black;
+    }
+}
+
+ul{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+main{
+    background-image: url(./house.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    align-content: center;
+    color: white;
+    a{
+        text-align: center;
+        color: white;
+    }
+}
+
+p , h1{
+    align-content: center;
+}
